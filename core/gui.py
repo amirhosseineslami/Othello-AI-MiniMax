@@ -4,14 +4,11 @@ from os import name
 
 import pygame
 
-# This is our board data list
-board_list = [
-    [[],[],[],[]],
-    [[],[],[],[]],
-    [[],[],[],[]],
-    [[],[],[],[]]
-]
+from core.board import Board
+
+
 class Gui:
+    board = Board()
 
     def startPygameLoop(self):
         # pygame setup

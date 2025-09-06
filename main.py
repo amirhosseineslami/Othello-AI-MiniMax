@@ -5,10 +5,11 @@ from core.gui import Gui
 
 
 class Main():
-    print()
-    Gui().startPygameLoop()
+    def main(self):
+        Gui().startPygameLoop()
 
 
 
 if __name__ == "__main__":
-    main()
+    m = Main()
+    m.main()

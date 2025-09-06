@@ -1,6 +1,14 @@
-import torch
+from ast import main
+from os import name
 
-print(torch.__version__)             # see which PyTorch version you have
-print(torch.cuda.is_available())     # must be True if GPU works
-if torch.cuda.is_available():
-    print(torch.cuda.get_device_name(0))
+from core.gui import Gui
+
+
+class Main():
+    print()
+    Gui().startPygameLoop()
+
+
+
+if __name__ == "__main__":
+    main()

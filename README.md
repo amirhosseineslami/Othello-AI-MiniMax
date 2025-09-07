@@ -22,7 +22,11 @@
 
 ## 🖼️ Screenshots
 
-*(Add screenshots here if possible)*
+### Game Start
+![Board Start](images/board_start.png)
+
+### Game Over
+![Game Over](images/game_over.png)
 
 ---
 

@@ -3,10 +3,10 @@ import datetime
 from typing import Counter
 
 import pygame
+from core.boardManagement import BoardManagement
+from core.gameEvaluator import GameEvaluator
 
-from artificialInteligence import ArtificialIntelligence
-from boardManagement import BoardManagement
-from gameEvaluator import GameEvaluator
+from core.artificialInteligence import ArtificialInteligence
 
 
 class Gui:
@@ -22,7 +22,7 @@ class Gui:
 
     def __init__(self):
         self.rectangles = []
-        self.ai = ArtificialIntelligence(evaluator=self.evaluator, depth=5)
+        self.ai = ArtificialInteligence(evaluator=self.evaluator, depth=5)
         self.board = BoardManagement(self, self.evaluator, self.ai)
 
     def startPygameLoop(self):
@@ -126,8 +126,3 @@ class Gui:
                     )
 
                 self.rectangles.append(rect)
-
-
-if __name__ == "__main__":
-    g = Gui()
-    g.startPygameLoop()

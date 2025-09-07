@@ -1,4 +1,4 @@
-class ArtificialIntelligence:
+class ArtificialInteligence:
     board = None
 
     def __init__(self, evaluator, depth=5):

@@ -6,7 +6,8 @@ from core.gui import Gui
 
 class Main():
     def main(self):
-        Gui().startPygameLoop()
+        gui = Gui()
+        gui.startPygameLoop()
 
 
 

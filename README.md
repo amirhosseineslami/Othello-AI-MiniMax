@@ -92,13 +92,15 @@ The winner is shown at the end.
 MiniMax/
 │── main.py                 # Entry point
 │── run.bat                 # Run game via Python
-│── Othello.exe             # Standalone executable
 │── artificialIntelligence.py
 │── boardManagement.py
 │── gameEvaluator.py
 │
-└── core/
-    │── gui.py              # Pygame GUI
+│── core/
+│    │── gui.py              # Pygame GUI
+│
+│── dist/          
+    │── Othello.exe  # Standalone executable
 ```
 
 ---

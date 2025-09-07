@@ -133,11 +133,4 @@ This project is released under the MIT License – feel free to use, modify, and
 
 ---
 
-👨‍💻 **Author**: Your Name Here
-
-```
-
----
-
-👉 Do you want me to also add a **short "How to Play Othello" section** in the README (rules for new users), or keep it purely technical?
-```
+👨‍💻 **Author**: Amirhossein Eslami
